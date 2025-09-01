@@ -1,0 +1,161 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header & Hero Section */
+.hero-section {
+    background-image: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.hero-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 0;
+}
+
+.hero-contact {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+.hero-contact a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #1a2a6c;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #eee;
+}
+
+/* Main Sections */
+.services-section, .consultation-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2em;
+    font-weight: 600;
+    color: #1a2a6c;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #fdbb2d;
+    margin: 10px auto 0;
+}
+
+.services-content, .consultation-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.section-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.services-list, .consultation-details {
+    text-align: left;
+}
+
+.services-list h3, .consultation-details h3 {
+    color: #b21f1f;
+    margin-top: 0;
+}
+
+.services-list ul, .consultation-details ul {
+    list-style-type: '✅ ';
+    padding-left: 20px;
+}
+
+.services-list li, .consultation-details li {
+    margin-bottom: 10px;
+}
+
+.consultation-contact {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.consultation-contact a {
+    color: #1a2a6c;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #1a2a6c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsif */
+@media (min-width: 768px) {
+    .services-content, .consultation-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .services-content .section-image {
+        order: 1;
+        width: 55%;
+    }
+
+    .services-list {
+        order: 2;
+        width: 40%;
+    }
+
+    .consultation-content .section-image {
+        order: 2;
+        width: 55%;
+    }
+
+    .consultation-details {
+        order: 1;
+        width: 40%;
+    }
+}
