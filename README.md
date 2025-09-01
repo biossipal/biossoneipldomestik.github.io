@@ -225,5 +225,8 @@ footer {
         width: 40%;
     }
 }
+<img width="1200" height="628" alt="IKLAN BIOSS " src="https://github.com/user-attachments/assets/9c151086-cbd8-4b37-ae5a-2b14928ce162" />
+![logo bioss](https://github.com/user-attachments/assets/be14359e-eadf-46b3-8545-75073d110413)
 
+<img width="1920" height="1080" alt="Kontraktor Ipal bioss" src="https://github.com/user-attachments/assets/6cac7e0e-5a3c-41b7-bd42-a700c49a6225" />
 
